@@ -1,0 +1,36 @@
+@font-face {
+  font-family: MulishRegular;
+  src: url("./asserts/fonts/Mulish-Regular.ttf");
+}
+
+@font-face {
+  font-family: MulishBold;
+  src: url("./asserts/fonts/Mulish-Bold.ttf");
+}
+
+@font-face {
+  font-family: MulishSemiBold;
+  src: url("./asserts/fonts/Mulish-SemiBold.ttf");
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+input,
+button,
+select,
+textarea {
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
